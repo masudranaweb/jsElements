@@ -1,0 +1,45 @@
+.img_blur_custom{
+    width:200px;
+    height:200px;
+}
+h3{
+    background-color: black;
+    color:#fff;
+}
+.hiddenP{
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color:green;
+}
+.hover_text{
+    text-align: justify;
+    font-size: 16px;
+    color:#000;
+}
+.hover_img img{
+    width:200px;
+    height: 200px;
+}
+.price_box{
+    width:200px;
+    height: 30px;
+    border: 2px solid #000;
+    padding:2px;
+    text-align: center;
+    border-radius: 5px;
+    ;
+}
+.i_custom{
+    width:80%;
+}
+
+.inputs_c{
+    display: flex;
+    justify-content: space-around;
+}
+.i_custom_btn{
+    display: flex;
+    justify-content: center;;
+}

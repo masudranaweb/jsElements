@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 50 js elements</title>
+    <!-- font-awesome -->
+<link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!-- font-awesome -->
+     <!-- bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- bootstrap -->
+     <!-- custom css -->
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/media.css">
+     <!-- custom css -->
+      
+</head>
+<body>
+<section class="50_js_element">
+    <div class="container mt-5">
+        <!-- ex-1 click the button to change the text -->
+        <div class="1st_js_element">
+            <h3 class="text-center"> 
+                click the button to change the text
+            </h3>
+            <button onclick="textChange()" type="button" class="btn btn-dark">
+                click to change the text
+            </button>
+            <h4 id="t_change">
+                Hello!
+            </h4>
+        </div>
+        <!-- js element -->
+
+        <hr>
+
+         <!-- ex-2 Click me to display Date and Time-->
+         <div class="2nd_js_element">
+            <h3 class="text-center">
+                click the button to show date and time
+            </h3>
+
+            <button type="button" class="btn btn-dark" onclick="showDate()">
+                show date and time
+            </button>
+            <h4 id="s_date">
+                date and time
+            </h4>
+
+        </div>
+        <!-- js element -->
+        <hr>
+        <!-- ex-3 click to on and off the bulb-->
+        <div class="js-element">
+            <h3 class="text-center">
+                click to on and off the bulb
+            </h3>
+            <button type="button" onclick="bulbOff()" class="btn btn-danger">
+                Bulb Off
+            </button>
+            <img id="blub_off" src="images/pic_bulboff (1).gif" alt="">
+            <button class="btn btn-primary" type="button" onclick="bulbOn()">
+                Blub On
+            </button>
+            
+        </div>
+        <hr>
+
+        <!-- js element -->
+                 <!-- ex-4 click to on and off the bulb-->
+        <div class="js-element">
+            <h3 class="text-center">
+                click to change opacity the picture
+            </h3>
+           <img src="images/noblur.png" class="img-fluid img_blur_custom" id="no_blur">
+
+            <button class="btn btn-dark" onclick="blurOff()" type="button">
+                Blur off
+            </button>
+            <button class="btn btn-primary" type="button" onclick="blur50()">
+                Blur 50%
+            </button>
+            <button class="btn btn-danger" type="button" onclick="blur100()">
+                Blur 100%
+            </button>
+            
+        </div>
+        <hr>
+
+        <!-- js element -->
+                <!-- js element -->
+                 <!-- ex-5  click to change  paragraph font-size and color-->
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        click to change  paragraph font-size and color
+                    </h3>
+                    <p id="font_size">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, fugiat reiciendis. Obcaecati, laboriosam asperiores. Nihil porro officiis at assumenda quo? Corporis itaque animi et nulla.
+                    </p>
+                   <button class="btn btn-dark" type="button" onclick="fontSize()">
+                    Change the font-size
+                   </button>
+                   <button class="btn btn-primary" type="button" onclick="backOrginal()">
+                    Back to orginal
+                   </button>
+                    
+                </div>
+                <hr>
+        
+                <!-- js element -->
+
+                <!-- js element -->
+                 <!-- ex-6  click to show the hidden HTML-->
+                 <div class="js-element hidden_text">
+                    <h3 class="text-center">
+                        click to cshow the hidden HTML
+                    </h3>
+                    <p id="hidden_p" class="hiddenP"  onclick="hidden()">
+                      This is hidden HTML
+                    </p>
+                    <button class="btn btn-dark" type="button" onclick="hiddenHTML()">
+                        show hidden HTML
+                    </button>
+                </div>
+                <hr>
+        
+                <!-- js element -->
+
+                <!-- js element -->
+                 <!-- ex-7  show onmouseover effect-->
+                 <div class="js-element hidden_text">
+                    <h3 class="text-center">
+                        show onmouseover effect
+                    </h3>
+                    <p id="text_hover" onmouseover="textHover()" class="hover_text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, corrupti? Quisquam eaque sed minus molestiae quae, facilis eos placeat id?
+                    </p>
+                   
+                </div>
+                <hr>
+        
+                <!-- js element -->
+                
+                <!-- js element -->
+                 <!-- ex-8  show mouseenter and mouseleave effect-->
+                 <div class="js-element hidden_text">
+                    <h3 class="text-center">
+                        show mouseenter and mouseleave effect
+                    </h3>
+                    <p id="texthover" onmouseenter="hoverText()" onmouseleave="normalText()" class="hover_text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, corrupti? Quisquam eaque sed minus molestiae quae, facilis eos placeat id?
+                    </p>
+                   
+                </div>
+                <hr>
+        
+                <!-- js element -->
+
+                <!-- js element -->
+                 <!-- ex-9  show mouseenter and mouseleave effect-->
+                 <div class="js-element hover_img">
+                    <h3 class="text-center">
+                        show mouseenter and mouseleave Image effect
+                    </h3>
+                    <img src="images/noblur.png" alt="" class="img-fluid" id="img_hover" onmouseenter="imgEnter()" onmouseleave="imgLeave()">
+                    </p>
+                   
+                </div>
+                <hr>
+        
+                <!-- js element -->
+
+                <!-- js element -->
+                 <!-- ex-10  show mouseenter and mouseleave effect-->
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        JavaScript Output
+                    </h3>
+                   <p id="calculation"></p>
+                    </p>
+                   
+                </div>
+                <hr>
+                <!-- js element -->
+
+                <!-- js element -->
+                 <!-- ex-11  JavaScript Output-->
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        JavaScript Output
+                    </h3>
+                    <h4>
+                        9 + 5 = ?
+                    </h4>
+                    <button class="btn btn-primary" type="button" onclick="plusCal()" >
+                        Solve
+                    </button>
+                   <p id="calculation"></p>
+                    </p>
+                   
+                </div>
+                <hr>
+        
+                <!-- js element -->
+                
+                 <!-- js element -->
+                 <!-- ex-12  JavaScript Output-->
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        JavaScript Output and alart
+                    </h3>
+                    <h4>
+                        9 + 9 = ?
+                    </h4>
+                    <button class="btn btn-primary" type="button" onclick="alertSolve()" >
+                        Solve Alart
+                    </button>
+                </div>
+                <hr>
+                <!-- js element -->
+
+                <!-- js element -->
+                 <!-- ex-13  click the button to print-->
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        click the button to print
+                    </h3>
+                    <button class="btn btn-secondary" type="button" onclick="windowPrint()" >
+                        Print
+                    </button>
+                </div>
+                <hr>
+                <!-- js element -->
+
+                <!-- js element -->
+                 <!-- ex-14  click the button to print-->
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        console button
+                    </h3>
+                    <button class="btn btn-dark" type="button" onclick="consoleLog()">
+                        Console
+                    </button>
+                    
+                </div>
+                <hr>
+                <!-- js element -->
+                
+                <!-- js element -->
+                 <!-- ex-15  JavaScript statements are separated by semicolons with let -->
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        JavaScript statements are separated by semicolons with let 
+                    </h3>
+                    <p style="font-size: 25px;" id="js_satement"> x= y+z</p>
+                    <button class="btn btn-primary" onclick="jsStatement()"> show valu</button>
+                    
+                </div>
+                <hr>
+                <!-- js element -->
+                
+                <!-- js element -->
+                 <!-- ex-16  JavaScript statements are separated by semicolons with var-->
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        JavaScript statements are separated by semicolons with var
+                    </h3>
+                    <p style="font-size: 25px;" id="js_var"> x= y*z</p>
+                    <button class="btn btn-primary" onclick="jsVar()"> show valu</button>
+                    
+                </div>
+                <hr>
+                <!-- js element -->
+                 <!-- js element -->
+                 <!-- ex-17  JavaScript cons-->
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        JavaScript cons
+                    </h3>
+                    <p style="font-size: 25px;" id="js_cons"> </p>
+                    <button class="btn btn-primary" onclick="jsCons()"> Cars Name</button>
+                    
+                </div>
+                <hr>
+                <!-- js element -->
+                  <!-- js element -->
+                 <!-- ex-18  JavaScript cons-->
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        JavaScript input number
+                    </h3>
+                    <input type="number" class="form-control" id="S_number">
+                    <br>
+                    <div class="price_box text-center">
+                        <p id="s_value" > </p>
+                    </div>
+                    <br>
+                    <button class="btn btn-primary" onclick="jsString()"> 
+                        Value 
+                    </button>
+                    
+                </div>
+                <hr>
+                <!-- js element -->
+
+                 <!-- js element -->
+                 <!-- ex-19  JavaScript input lessthan 100 is Applicable -->
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        JavaScript input lessthan 100 is Applicable 
+                    </h3>
+                    <input type="number" class="form-control" id="l_number">
+                    <br>
+                    <div class="price_box text-center">
+                        <p id="l_value" > </p>
+                    </div>
+                    <br>
+                    <button class="btn btn-primary" onclick="jsLogicalNumber()"> 
+                        Value 
+                    </button>
+                    
+                </div>
+                <hr>
+                <!-- js element -->
+
+             <!-- js element -->
+                 <!-- ex-20  JavaScript input number Comparison-->
+
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        JavaScript input number Comparison
+                    </h3>
+                    <div id="inputs" class="inputs_c">
+                        <div>
+                            <input id="a" value="8" class="form-control i_custom">
+                        </div>
+
+                        <div class="price_box text-center">
+                            <p id="com_value" > </p>
+                        </div>
+
+                        <div>
+                            <input id="b" value="3" class="form-control i_custom">
+                        </div>
+                    </div>
+                      <div class="i_custom_btn">
+                        <button id="submit" onclick="comValue()" >Compare</button>
+                      </div>
+
+
+
+
+
+
+
+                    <!-- <input type="number" class="form-control" id="l_number">
+                    <br>
+                    <div class="price_box text-center">
+                        <p id="l_value" > </p>
+                    </div>
+                    <br>
+                    <button class="btn btn-primary" onclick="jsLogicalNumber()"> 
+                        Value 
+                    </button>
+                    
+                </div> -->
+                <hr>
+                <!-- js element -->
+
+                
+
+
+
+
+
+
+
+
+
+
+
+                <!-- js element -->
+                 <!-- ex-17  JavaScript statements are separated by semicolons with var-->
+
+
+                 <div class="js-element">
+                    <h3 class="text-center">
+                        JavaScript statements
+                    </h3>
+                          <select class="form-select" name="" id="car_name">
+                            <option value="48000">Toyota</option>
+                            <option value="500000">BMW</option>
+                            <option value="600000">Ford</option>
+                            <option value="8000000">Lexus</option>
+                            <option value="9000000">Ferrari</option>
+                          </select>                       
+                    <br>
+                    <div class="price_box text-center">
+                        <p id="price" > </p>
+                    </div>
+                    <br>
+                    <button class="btn btn-primary" onclick="carPrice()">
+                        Price
+                    </button>    
+                </div>
+                <hr>
+
+
+
+
+
+               
+
+
+
+                <!-- js element -->
+
+                <!-- js element -->
+               
+
+               
+
+
+        
+    </div>
+</section>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
